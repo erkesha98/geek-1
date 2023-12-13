@@ -6,8 +6,8 @@ function addItems() {
     alert("Add at least one item");
   } else {
     let li = document.createElement("li");
-    li.innerHTML = input.value;
+    li.textContent = input.value;
     list.append(li);
   }
-  input.value === "";
+  input.value=== "";
 }
